@@ -34,17 +34,25 @@ F2 (nameError)
 if (len(name)>5):
 오류출력
 
-F3
+F3 (loop1)
 ->if random.uniform(0,9) >= 4:
 pos[i] = pos[i] + “-“
 
-F4
+F4 (loop2)
 ->for(i = len(carName2)):
 f3
 print(carName2[I] + “:” + pos[i])
 
-F5
+F5 (loop3)
 ->for(Number만큼):
 f4
 
+F6 (printWinner)
+->우승자 출력
+max 구하기
+for 
+    if carName2[i] == max
+
 함수 이름 멀로 정하지?? 나중에 바꾸자 그냥!
+
+f3,4,5는 그냥 들여쓰기 때문에 분리한 거라서 이름 loop로 결정
